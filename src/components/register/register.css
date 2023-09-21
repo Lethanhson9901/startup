@@ -1,0 +1,122 @@
+.register {
+    padding: 20px 0;
+    /* color: #fff;
+    text-align: center; */
+    /* background-image: url("../../../public/images/register/back.jpg"); */
+    background-color: rgba(161,196,202,255);
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    /* top: 0;
+    left: 0; */
+    /* z-index: -1; */
+    /* width: 100%; */
+    /* height: 100vh; */
+    padding-top: 10%;
+    padding-bottom: 10%;
+    /* padding-right: 50px; */
+    color: #fff;
+    /* text-align: center; */
+  }
+
+  /* Center-align contents horizontally */
+  .register-form {
+    width: 400px;
+    margin: auto;
+    padding: 50px 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5%;
+    /* Add flex display and column direction to separate elements vertically */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* box-shadow: 0 5px 25px; */
+  }
+  
+
+  
+  /* Center-align the button */
+  .register-form button[type="submit"] {
+    display: block;
+    margin: 10px auto 0 auto;
+  }
+  
+  /*------------register-----------*/
+  .link-btn{
+    cursor: pointer;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1.2rem;
+    box-shadow: none;
+    
+  }
+  .link-btn {
+    display: block;
+    margin: 0 auto; /* This will center the button horizontally */
+    text-align: center; /* Optional: Center the text within the button */
+  }
+
+  .register-form h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: black;
+  }
+
+  .register-form h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 auto; /* This will center the text horizontally */
+    text-align: center; /* Optional: Center the text within the element */
+    color: black;
+    margin-bottom: 30px;
+  }
+
+  .register-form input,
+  .register-form select  {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+
+  /* Center horizontally */
+  .register-form button {
+    border-radius: 6px;
+    margin-top: 20px;
+    display: block; 
+  }
+  .register-form a {
+    text-decoration: none;
+    color: #1eb2a6;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 10px 0;
+    display: block;
+  }
+  .register-form a:hover {
+    color: #1eb2a6;
+  }
+  .register-form a i {
+    margin-right: 10px;
+  }
+  .register-form a  span {
+    margin-left: 10px;
+  }
+  .register-form a:hover {
+    color: #1eb2a6;
+  }
+  .register-form a:hover i {
+    color: #1eb2a6;
+  }
+.label-left-align {
+    text-align: left;
+    /* margin-bottom: 10px; */
+  }

@@ -1,0 +1,93 @@
+/* userinfo.css */
+
+/* userinfo.css */
+
+.user-info-container {
+    background-image: url("../../../../public/images/germany-hd-wallpaper.jpg");
+    /* opacity: 0.9; */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the background image */
+  
+    /* Add these styles to make the container full-height */
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Adjust alignment as needed */
+    height: 80vh;
+    /* align-content: center; */
+    
+  }
+  /* .user-info-container .h2{
+    margin: 30px 30px 30% 0;
+  } */
+
+  
+  .user-info-column {
+    display: flex; /* Display children side by side */
+    justify-content: space-between; /* Add space between columns */
+    max-width: 1300px; /* Adjust the maximum width as needed */
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+  }
+
+  /* .user-info-column .h2 {
+    margin-left: 500px;
+  } */
+
+
+  
+  .user-info-list {
+    margin-top: 50px;
+    flex: 1; /* Allow each list to take half of the column width */
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 100px; /* Add space between columns */
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  ul {
+    list-style:none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    /* border-radius: 2px; */
+  } 
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px; /* Set a minimum height */
+  }
+  
+  textarea:focus {
+    border-color: #1eb2a6;
+    outline: none;
+  }
